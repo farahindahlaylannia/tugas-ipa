@@ -3,77 +3,95 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tugas IPA Kelompok</title>
+  <title>Tugas Kelompok 3</title>
   <style>
     body {
       font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #E8F5E9;
+    }
+
+    header, footer {
+      background-color: #3E2723;
+      color: white;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 14px;
+    }
+
+    .icon {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+
+    main {
       text-align: center;
-      background-color: #f8f9fa;
+      padding: 20px;
     }
-    h1 {
-      margin-top: 20px;
-      color: #000;
-    }
-    .nav {
-      margin: 15px 0;
-    }
-    .nav a {
-      display: inline-block;
-      padding: 10px 20px;
-      margin: 5px;
+
+    .btn {
+      background-color: #4CAF50; 
+      color: white;
+      padding: 12px 20px;
+      margin: 10px;
+      border-radius: 10px;
       text-decoration: none;
-      background-color: #f1c40f;
-      color: #000;
-      font-weight: bold;
-      border-radius: 5px;
-    }
-    .nav a:hover {
-      background-color: #f39c12;
-    }
-    h2 {
-      margin: 20px 0;
-      color: #333;
-    }
-    .buttons a {
       display: inline-block;
-      padding: 10px 15px;
-      margin: 5px;
-      color: #fff;
-      text-decoration: none;
+      width: 180px;
       font-weight: bold;
-      border-radius: 5px;
     }
-    /* Warna tombol tanaman */
-    .palem-kuning { background-color: #27ae60; }      /* hijau */
-    .palem-putri { background-color: #2980b9; }       /* biru */
-    .palem-natal { background-color: #8e44ad; }       /* ungu */
-    .glodokan-tiang { background-color: #e67e22; }    /* oranye */
-    .hanjuang { background-color: #c0392b; }          /* merah */
-    .sawo { background-color: #795548; }              /* coklat */
-    .nangka { background-color: #16a085; }            /* hijau tua */
-    
-    .buttons a:hover {
-      opacity: 0.8;
+
+    .btn:hover {
+      background-color: #388E3C; 
+    }
+
+    footer {
+      text-align: center;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
-  <h1>Tugas IPA Kelompok</h1>
+  <header>
+    
+    <a href="index.html">
+      <img src="https://img.icons8.com/ios-filled/50/ffffff/home.png" alt="Home" class="icon">
+    </a>
 
-  <div class="nav">
-    <a href="index.html">🏠</a>
-    <a href="profil.html">👤</a>
-  </div>
+    <div>
+      <h1>Tugas Kelompok 3</h1>
+      <p>Area Lapangan Voli</p>
+    </div>
 
-  <h2>Pilihan Tanaman</h2>
-  <div class="buttons">
-    <a href="palem kuning.html" class="palem-kuning">Palem Kuning</a>
-    <a href="palem putri.html" class="palem-putri">Palem Putri</a>
-    <a href="palem natal.html" class="palem-natal">Palem Natal</a>
-    <a href="glodokan tiang.html" class="glodokan-tiang">Glodokan Tiang</a>
-    <a href="hanjuang.html" class="hanjuang">Hanjuang</a>
-    <a href="sawo.html" class="sawo">Sawo</a>
-    <a href="nangka.html" class="nangka">Nangka</a>
-  </div>
+<a href="profil.html">
+  <img src="https://img.icons8.com/ios-filled/50/ffffff/user.png" alt="Profile" class="icon">
+</a>
+  </header>
+
+  <main>
+  <a href="palem kuning.html" class="btn">Palem Kuning</a>
+  <a href="palem putri.html" class="btn">Palem Putri</a><br>
+  <a href="palem natal.html" class="btn">Palem Natal</a>
+  <a href="glodokan tiang.html" class="btn">Glodokan Tiang</a><br>
+  <a href="hanjung.html" class="btn">Hanjuang</a>
+  <a href="sawo.html" class="btn">Sawo</a><br>
+  <a href="nangka.html" class="btn">Nangka</a>
+  </main>
+
+  <footer>
+    © 2025 SMKN 10 Semarang
+  </footer>
 </body>
 </html>
